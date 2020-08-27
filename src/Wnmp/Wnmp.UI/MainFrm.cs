@@ -469,7 +469,7 @@ namespace Wnmp.UI
 
         private void LocalhostToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Misc.StartProcessAsync("http://localhost");
+            Misc.StartProcessAsync("http://172.16.1.62:8000/");
         }
 
         private void OpenMariaDBShellButton_Click(object sender, EventArgs e)
