@@ -77,9 +77,9 @@
             // 
             // Cancel
             // 
-            this.Cancel.Location = new System.Drawing.Point(275, 346);
+            this.Cancel.Location = new System.Drawing.Point(275, 319);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(75, 23);
+            this.Cancel.Size = new System.Drawing.Size(75, 21);
             this.Cancel.TabIndex = 20;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
@@ -89,10 +89,10 @@
             // 
             this.tabControl1.Controls.Add(this.General);
             this.tabControl1.Controls.Add(this.PHP);
-            this.tabControl1.Location = new System.Drawing.Point(7, 12);
+            this.tabControl1.Location = new System.Drawing.Point(7, 11);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(347, 328);
+            this.tabControl1.Size = new System.Drawing.Size(364, 303);
             this.tabControl1.TabIndex = 19;
             // 
             // General
@@ -101,7 +101,7 @@
             this.General.Location = new System.Drawing.Point(4, 22);
             this.General.Name = "General";
             this.General.Padding = new System.Windows.Forms.Padding(3);
-            this.General.Size = new System.Drawing.Size(339, 302);
+            this.General.Size = new System.Drawing.Size(356, 277);
             this.General.TabIndex = 0;
             this.General.Text = "General";
             this.General.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@
             this.applicationSettingsGroupBox.Controls.Add(this.label4);
             this.applicationSettingsGroupBox.Location = new System.Drawing.Point(6, 6);
             this.applicationSettingsGroupBox.Name = "applicationSettingsGroupBox";
-            this.applicationSettingsGroupBox.Size = new System.Drawing.Size(327, 240);
+            this.applicationSettingsGroupBox.Size = new System.Drawing.Size(344, 222);
             this.applicationSettingsGroupBox.TabIndex = 16;
             this.applicationSettingsGroupBox.TabStop = false;
             this.applicationSettingsGroupBox.Text = "Application Settings";
@@ -139,7 +139,7 @@
             // StartMinimizedToTray
             // 
             this.StartMinimizedToTray.AutoSize = true;
-            this.StartMinimizedToTray.Location = new System.Drawing.Point(226, 170);
+            this.StartMinimizedToTray.Location = new System.Drawing.Point(27, 156);
             this.StartMinimizedToTray.Name = "StartMinimizedToTray";
             this.StartMinimizedToTray.Size = new System.Drawing.Size(15, 14);
             this.StartMinimizedToTray.TabIndex = 24;
@@ -148,16 +148,16 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(25, 170);
+            this.label13.Location = new System.Drawing.Point(46, 156);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(111, 13);
+            this.label13.Size = new System.Drawing.Size(125, 12);
             this.label13.TabIndex = 23;
             this.label13.Text = "Start Wnmp minimized";
             // 
             // MinimizeToTrayInsteadOfClosing
             // 
             this.MinimizeToTrayInsteadOfClosing.AutoSize = true;
-            this.MinimizeToTrayInsteadOfClosing.Location = new System.Drawing.Point(226, 150);
+            this.MinimizeToTrayInsteadOfClosing.Location = new System.Drawing.Point(27, 137);
             this.MinimizeToTrayInsteadOfClosing.Name = "MinimizeToTrayInsteadOfClosing";
             this.MinimizeToTrayInsteadOfClosing.Size = new System.Drawing.Size(15, 14);
             this.MinimizeToTrayInsteadOfClosing.TabIndex = 22;
@@ -166,16 +166,16 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(25, 150);
+            this.label12.Location = new System.Drawing.Point(46, 137);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(164, 13);
+            this.label12.Size = new System.Drawing.Size(215, 12);
             this.label12.TabIndex = 21;
             this.label12.Text = "Minimize to tray instead of closing";
             // 
             // StartNginxLaunchCB
             // 
             this.StartNginxLaunchCB.AutoSize = true;
-            this.StartNginxLaunchCB.Location = new System.Drawing.Point(226, 70);
+            this.StartNginxLaunchCB.Location = new System.Drawing.Point(27, 64);
             this.StartNginxLaunchCB.Name = "StartNginxLaunchCB";
             this.StartNginxLaunchCB.Size = new System.Drawing.Size(15, 14);
             this.StartNginxLaunchCB.TabIndex = 18;
@@ -184,16 +184,16 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(25, 70);
+            this.label11.Location = new System.Drawing.Point(46, 64);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(109, 13);
+            this.label11.Size = new System.Drawing.Size(131, 12);
             this.label11.TabIndex = 17;
             this.label11.Text = "Start Nginx on launch";
             // 
             // StartMySQLLaunchCB
             // 
             this.StartMySQLLaunchCB.AutoSize = true;
-            this.StartMySQLLaunchCB.Location = new System.Drawing.Point(226, 90);
+            this.StartMySQLLaunchCB.Location = new System.Drawing.Point(27, 82);
             this.StartMySQLLaunchCB.Name = "StartMySQLLaunchCB";
             this.StartMySQLLaunchCB.Size = new System.Drawing.Size(15, 14);
             this.StartMySQLLaunchCB.TabIndex = 16;
@@ -202,17 +202,17 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(25, 90);
+            this.label10.Location = new System.Drawing.Point(46, 82);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(117, 13);
+            this.label10.Size = new System.Drawing.Size(131, 12);
             this.label10.TabIndex = 15;
             this.label10.Text = "Start MySQL on launch";
             // 
             // selecteditor
             // 
-            this.selecteditor.Location = new System.Drawing.Point(218, 20);
+            this.selecteditor.Location = new System.Drawing.Point(228, 17);
             this.selecteditor.Name = "selecteditor";
-            this.selecteditor.Size = new System.Drawing.Size(26, 23);
+            this.selecteditor.Size = new System.Drawing.Size(26, 21);
             this.selecteditor.TabIndex = 14;
             this.selecteditor.Text = "...";
             this.selecteditor.UseVisualStyleBackColor = true;
@@ -220,14 +220,14 @@
             // 
             // updateCheckIntervalNumericUpDown
             // 
-            this.updateCheckIntervalNumericUpDown.Location = new System.Drawing.Point(226, 210);
+            this.updateCheckIntervalNumericUpDown.Location = new System.Drawing.Point(247, 193);
             this.updateCheckIntervalNumericUpDown.Maximum = new decimal(new int[] {
             365,
             0,
             0,
             0});
             this.updateCheckIntervalNumericUpDown.Name = "updateCheckIntervalNumericUpDown";
-            this.updateCheckIntervalNumericUpDown.Size = new System.Drawing.Size(66, 20);
+            this.updateCheckIntervalNumericUpDown.Size = new System.Drawing.Size(66, 21);
             this.updateCheckIntervalNumericUpDown.TabIndex = 13;
             this.updateCheckIntervalNumericUpDown.Value = new decimal(new int[] {
             7,
@@ -238,25 +238,25 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 213);
+            this.label6.Location = new System.Drawing.Point(46, 196);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(154, 13);
+            this.label6.Size = new System.Drawing.Size(191, 12);
             this.label6.TabIndex = 12;
             this.label6.Text = "Update check interval (in days)";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 25);
+            this.label1.Location = new System.Drawing.Point(25, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(47, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Editor:";
             // 
             // StartPHPLaunchCB
             // 
             this.StartPHPLaunchCB.AutoSize = true;
-            this.StartPHPLaunchCB.Location = new System.Drawing.Point(226, 110);
+            this.StartPHPLaunchCB.Location = new System.Drawing.Point(27, 101);
             this.StartPHPLaunchCB.Name = "StartPHPLaunchCB";
             this.StartPHPLaunchCB.Size = new System.Drawing.Size(15, 14);
             this.StartPHPLaunchCB.TabIndex = 7;
@@ -265,16 +265,16 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 110);
+            this.label3.Location = new System.Drawing.Point(46, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 13);
+            this.label3.Size = new System.Drawing.Size(119, 12);
             this.label3.TabIndex = 6;
             this.label3.Text = "Start PHP on launch";
             // 
             // StartWnmpWithWindows
             // 
             this.StartWnmpWithWindows.AutoSize = true;
-            this.StartWnmpWithWindows.Location = new System.Drawing.Point(226, 50);
+            this.StartWnmpWithWindows.Location = new System.Drawing.Point(27, 45);
             this.StartWnmpWithWindows.Name = "StartWnmpWithWindows";
             this.StartWnmpWithWindows.Size = new System.Drawing.Size(15, 14);
             this.StartWnmpWithWindows.TabIndex = 4;
@@ -283,16 +283,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 50);
+            this.label2.Location = new System.Drawing.Point(46, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 13);
+            this.label2.Size = new System.Drawing.Size(143, 12);
             this.label2.TabIndex = 3;
             this.label2.Text = "Start Wnmp with Windows";
             // 
             // autoUpdateCheckBox
             // 
             this.autoUpdateCheckBox.AutoSize = true;
-            this.autoUpdateCheckBox.Location = new System.Drawing.Point(226, 190);
+            this.autoUpdateCheckBox.Location = new System.Drawing.Point(27, 174);
             this.autoUpdateCheckBox.Name = "autoUpdateCheckBox";
             this.autoUpdateCheckBox.Size = new System.Drawing.Size(15, 14);
             this.autoUpdateCheckBox.TabIndex = 11;
@@ -301,24 +301,24 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 190);
+            this.label5.Location = new System.Drawing.Point(46, 174);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 13);
+            this.label5.Size = new System.Drawing.Size(191, 12);
             this.label5.TabIndex = 10;
             this.label5.Text = "Automatically check for updates";
             // 
             // editorTB
             // 
-            this.editorTB.Location = new System.Drawing.Point(68, 22);
+            this.editorTB.Location = new System.Drawing.Point(78, 18);
             this.editorTB.Name = "editorTB";
             this.editorTB.ReadOnly = true;
-            this.editorTB.Size = new System.Drawing.Size(144, 20);
+            this.editorTB.Size = new System.Drawing.Size(144, 21);
             this.editorTB.TabIndex = 1;
             // 
             // MinimizeWnmpToTray
             // 
             this.MinimizeWnmpToTray.AutoSize = true;
-            this.MinimizeWnmpToTray.Location = new System.Drawing.Point(226, 130);
+            this.MinimizeWnmpToTray.Location = new System.Drawing.Point(27, 119);
             this.MinimizeWnmpToTray.Name = "MinimizeWnmpToTray";
             this.MinimizeWnmpToTray.Size = new System.Drawing.Size(15, 14);
             this.MinimizeWnmpToTray.TabIndex = 9;
@@ -327,9 +327,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 130);
+            this.label4.Location = new System.Drawing.Point(46, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(178, 13);
+            this.label4.Size = new System.Drawing.Size(233, 12);
             this.label4.TabIndex = 8;
             this.label4.Text = "Minimize to tray instead of minimizing";
             // 
@@ -340,7 +340,7 @@
             this.PHP.Location = new System.Drawing.Point(4, 22);
             this.PHP.Name = "PHP";
             this.PHP.Padding = new System.Windows.Forms.Padding(3);
-            this.PHP.Size = new System.Drawing.Size(339, 302);
+            this.PHP.Size = new System.Drawing.Size(339, 277);
             this.PHP.TabIndex = 1;
             this.PHP.Text = "PHP";
             this.PHP.UseVisualStyleBackColor = true;
@@ -348,9 +348,9 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.phpExtListBox);
-            this.groupBox3.Location = new System.Drawing.Point(6, 122);
+            this.groupBox3.Location = new System.Drawing.Point(6, 113);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(326, 174);
+            this.groupBox3.Size = new System.Drawing.Size(326, 161);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "PHP Extensions";
@@ -359,9 +359,9 @@
             // 
             this.phpExtListBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.phpExtListBox.FormattingEnabled = true;
-            this.phpExtListBox.Location = new System.Drawing.Point(3, 16);
+            this.phpExtListBox.Location = new System.Drawing.Point(3, 17);
             this.phpExtListBox.Name = "phpExtListBox";
-            this.phpExtListBox.Size = new System.Drawing.Size(320, 155);
+            this.phpExtListBox.Size = new System.Drawing.Size(320, 141);
             this.phpExtListBox.TabIndex = 0;
             // 
             // groupBox2
@@ -374,7 +374,7 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Location = new System.Drawing.Point(6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(327, 110);
+            this.groupBox2.Size = new System.Drawing.Size(327, 102);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "PHP Settings";
@@ -382,24 +382,24 @@
             // phpBin
             // 
             this.phpBin.FormattingEnabled = true;
-            this.phpBin.Location = new System.Drawing.Point(108, 78);
+            this.phpBin.Location = new System.Drawing.Point(108, 72);
             this.phpBin.Name = "phpBin";
-            this.phpBin.Size = new System.Drawing.Size(69, 21);
+            this.phpBin.Size = new System.Drawing.Size(69, 20);
             this.phpBin.TabIndex = 5;
             this.phpBin.SelectedIndexChanged += new System.EventHandler(this.PhpBin_SelectedIndexChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(18, 81);
+            this.label9.Location = new System.Drawing.Point(18, 75);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 13);
+            this.label9.Size = new System.Drawing.Size(77, 12);
             this.label9.TabIndex = 4;
             this.label9.Text = "PHP Version:";
             // 
             // PHP_PROCESSES
             // 
-            this.PHP_PROCESSES.Location = new System.Drawing.Point(108, 25);
+            this.PHP_PROCESSES.Location = new System.Drawing.Point(108, 23);
             this.PHP_PROCESSES.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -411,7 +411,7 @@
             0,
             0});
             this.PHP_PROCESSES.Name = "PHP_PROCESSES";
-            this.PHP_PROCESSES.Size = new System.Drawing.Size(69, 20);
+            this.PHP_PROCESSES.Size = new System.Drawing.Size(69, 21);
             this.PHP_PROCESSES.TabIndex = 3;
             this.PHP_PROCESSES.Value = new decimal(new int[] {
             2,
@@ -422,22 +422,22 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(18, 27);
+            this.label8.Location = new System.Drawing.Point(18, 25);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 13);
+            this.label8.Size = new System.Drawing.Size(89, 12);
             this.label8.TabIndex = 2;
             this.label8.Text = "PHP Processes:";
             // 
             // PHP_PORT
             // 
-            this.PHP_PORT.Location = new System.Drawing.Point(108, 50);
+            this.PHP_PORT.Location = new System.Drawing.Point(108, 46);
             this.PHP_PORT.Maximum = new decimal(new int[] {
             65535,
             0,
             0,
             0});
             this.PHP_PORT.Name = "PHP_PORT";
-            this.PHP_PORT.Size = new System.Drawing.Size(69, 20);
+            this.PHP_PORT.Size = new System.Drawing.Size(69, 21);
             this.PHP_PORT.TabIndex = 1;
             this.PHP_PORT.Value = new decimal(new int[] {
             9000,
@@ -448,17 +448,17 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(18, 52);
+            this.label7.Location = new System.Drawing.Point(18, 48);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 13);
+            this.label7.Size = new System.Drawing.Size(59, 12);
             this.label7.TabIndex = 0;
             this.label7.Text = "PHP Port:";
             // 
             // Save
             // 
-            this.Save.Location = new System.Drawing.Point(183, 346);
+            this.Save.Location = new System.Drawing.Point(183, 319);
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(75, 23);
+            this.Save.Size = new System.Drawing.Size(75, 21);
             this.Save.TabIndex = 18;
             this.Save.Text = "Save";
             this.Save.UseVisualStyleBackColor = true;
@@ -466,9 +466,9 @@
             // 
             // OptionsFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 381);
+            this.ClientSize = new System.Drawing.Size(379, 352);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.Save);
