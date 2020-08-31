@@ -42,6 +42,7 @@ DirExistsWarning=no
 
 [Languages]
 Name: english; MessagesFile: compiler:Default.isl
+Name: chinese_simp; MessagesFile: contrib\Languages\Unofficial\ChineseSimplified.isl
 
 [Tasks]
 Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:AdditionalIcons}; Flags: unchecked
@@ -75,7 +76,7 @@ Source: "vc_redist.x64.exe"; DestDir: {tmp}; Flags: ignoreversion deleteafterins
 Source: BouncyCastle.dll; DestDir: {app}; Flags: ignoreversion
 Source: Wnmp.exe; DestDir: {app}; Flags: ignoreversion
 Source: Wnmp.exe.config; DestDir: {app}; Flags: ignoreversion
-Source: zh-Hans\*; DestDir: {app}\zh-Hans; Flags: ignoreversion
+Source: zh-Hans\*; Excludes: ".gitignore"; DestDir: {app}\zh-Hans; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
