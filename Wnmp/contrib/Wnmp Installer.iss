@@ -13,7 +13,6 @@
 AppId={{44CF85C5-C9D2-435F-941B-75597AA9A6FB}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
-SignTool=tools
 ;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
