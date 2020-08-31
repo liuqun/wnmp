@@ -163,6 +163,9 @@
     <EmbeddedResource Include="Wnmp.UI\MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Wnmp.UI\MainFrm.zh-Hans.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Wnmp.UI\OptionsFrm.resx">
       <DependentUpon>OptionsFrm.cs</DependentUpon>
     </EmbeddedResource>
