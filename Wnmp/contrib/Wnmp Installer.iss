@@ -68,7 +68,7 @@ Source: mariadb\data\*; Excludes: ".gitignore"; DestDir: {app}\mariadb\data; Fla
 Source: mariadb\include\*; Excludes: ".gitignore"; DestDir: {app}\mariadb\include; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: mariadb\share\*; Excludes: ".gitignore"; DestDir: {app}\mariadb\share; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: php\*; DestDir: {app}\php; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: temp\*; DestDir: {app}\temp; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: temp\*; Excludes: ".gitignore"; DestDir: {app}\temp; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: changelog.txt; DestDir: {app}; Flags: ignoreversion
 Source: nginx.exe; DestDir: {app}; Flags: ignoreversion
 Source: readme.txt; DestDir: {app}; Flags: ignoreversion
