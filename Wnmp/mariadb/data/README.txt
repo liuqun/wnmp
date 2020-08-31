@@ -1,0 +1,1 @@
+This directory stores the database files for the MariaDB
