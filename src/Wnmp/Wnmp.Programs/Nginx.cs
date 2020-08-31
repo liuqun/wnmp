@@ -44,11 +44,12 @@ namespace Wnmp.Programs
             }
         }
 
-        public void GenerateSSLKeyPair()
+        public void GenerateSSLKeyPair(string keyfile, string certfile)
         {
             try
             {
-                StartProcess(ExeFileName, "-b");
+                CertGen certgen = new CertGen();
+                certgen.GenerateSelfSignedCertificate("Wnmp", 2048, keyfile, certfile);
                 Log.Notice("Generated SSL Keypair", ProgLogSection);
             }
             catch (Exception ex)

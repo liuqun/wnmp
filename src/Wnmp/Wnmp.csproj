@@ -92,6 +92,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Wnmp.Programs\CertGen.cs" />
     <Compile Include="Wnmp.Programs\MariaDB.cs" />
     <Compile Include="Wnmp.Programs\Nginx.cs" />
     <Compile Include="Wnmp.Programs\PHP.cs" />

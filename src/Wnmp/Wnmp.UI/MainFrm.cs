@@ -180,7 +180,7 @@ namespace Wnmp.UI
             if (File.Exists(keyFile) && File.Exists(certFile))
                 return;
 
-            Nginx.GenerateSSLKeyPair();
+            Nginx.GenerateSSLKeyPair(keyFile, certFile);
         }
 
         private MenuItem CreateWnmpProgramMenuItem(WnmpProgram prog)
