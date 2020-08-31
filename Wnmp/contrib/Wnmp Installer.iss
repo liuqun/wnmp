@@ -74,6 +74,8 @@ Source: readme.txt; DestDir: {app}; Flags: ignoreversion
 Source: "vc_redist.x64.exe"; DestDir: {tmp}; Flags: ignoreversion deleteafterinstall
 Source: BouncyCastle.dll; DestDir: {app}; Flags: ignoreversion
 Source: Wnmp.exe; DestDir: {app}; Flags: ignoreversion
+Source: Wnmp.exe.config; DestDir: {app}; Flags: ignoreversion
+Source: zh-Hans\*; DestDir: {app}\zh-Hans; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

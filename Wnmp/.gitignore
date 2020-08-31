@@ -2,6 +2,8 @@
 *.lib
 *.dll
 *.exe
+*.exe.pdb
+*.exe.config
 /conf/*.pem
 
 # PHP
