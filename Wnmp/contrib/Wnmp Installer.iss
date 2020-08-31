@@ -73,7 +73,7 @@ Source: changelog.txt; DestDir: {app}; Flags: ignoreversion
 Source: nginx.exe; DestDir: {app}; Flags: ignoreversion
 Source: readme.txt; DestDir: {app}; Flags: ignoreversion
 Source: "vc_redist.x64.exe"; DestDir: {tmp}; Flags: ignoreversion deleteafterinstall
-Source: BouncyCastle.dll; DestDir: {app}; Flags: ignoreversion
+Source: BouncyCastle.Crypto.dll; DestDir: {app}; Flags: ignoreversion
 Source: Wnmp.exe; DestDir: {app}; Flags: ignoreversion
 Source: Wnmp.exe.config; DestDir: {app}; Flags: ignoreversion
 Source: zh-Hans\*; Excludes: ".gitignore"; DestDir: {app}\zh-Hans; Flags: ignoreversion
